@@ -855,9 +855,6 @@ iframe {
     header {
         height: 100vh;
         margin: 10px;
-        /* background: rgb(217, 221, 220); */
-        background: url(../imagenes/bgmovile.jpeg);
-        background-position: center;
 
 
     }
