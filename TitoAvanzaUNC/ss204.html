@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <title>
+        Responsive Bottom navigation
+    </title>
+  <!-- <link rel="stylesheet" href="./css/estilo.css"> -->
+    <!-- <link rel="stylesheet" 
+          href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity=
+"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+          crossorigin="anonymous"> -->
+          <link rel="stylesheet" href="style.css">
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity=
+"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous">
+  </script>
+    
+    <!-- <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity=
+"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous">
+  </script> -->
+    
+    <script src=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity=
+"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous">
+  </script>
+  
+    <meta charset="utf-8">
+  
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+    <style>
+        .navbar {
+            width: 98vw;
+            /* background-color: aquamarine; */
+            backdrop-filter: blur(50px);
+            border-radius: 20px 20px 0 0;
+            margin-left: 5px;
+            max-height: 75%;
+            
+            
+            /* backdrop-filter: blur(50px); */
+        }
+          
+        ul {
+            font-size: 20px;
+        }
+          
+        body {
+            text-align: center;
+            padding-top: 200px;
+        }
+          
+        h1 {
+            color: green;
+        }
+    
+
+/*  */
+.barraleft{
+    /* background: red; */
+    padding-left: 5%;
+    /* border-right: var(--color-text) 1px solid; */
+    padding-top: 5%;
+}
+.barraright{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  /* grid-auto-rows: minmax(200px, auto); */
+ 
+
+
+
+
+    
+}
+.barraright img{
+    width: 100%;
+    
+}
+.barraright li{
+   row-gap: 50px;
+    width: 100%;
+    /* flex-wrap: wrap;*/
+    
+    
+
+
+    
+    
+}
+
+
+    </style>
+</head>
+  
+<body>
+    <h1>GeeksforGeeks</h1>
+  
+    <h3>A responsive bottom navigation<h3>
+    <section style="min-height: 100vh; background-color: blueviolet;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae nulla in, nesciunt sunt ad enim unde, quibusdam cumque rem molestias illo suscipit dignissimos iure corrupti natus facere debitis repellat? A.</section>
+  
+    <nav class="navbar fixed-bottom navbar-expand-lg navbar-light" style="overflow-y: auto;">
+       
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+             <span  class="uil uil-apple-alt" ></span>
+             
+             
+             
+        </button>
+        <!-- <div class="menu-icon">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+          </div> -->
+  
+        <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+                <li class="nav-item active" >
+                    <a class="nav-link" href="#">
+                        <span class="sr-only">
+                            (current)
+                        </span>
+                    </a>
+                </li>
+                <div>
+                    <div style="width: 50%; float: right; overflow-y: auto;" class="barraright " >
+                        <li class="nav__list-item">Home
+                            <img src="./imagenes/avatar1.jpg" alt="">
+                        </li>
+                        <li class="nav__list-item">About
+                            <img src="./imagenes/avatar3.jpg" alt="">
+                        </li>
+                    
+                        <li class="nav__list-item">Projects
+                            <img src="./imagenes/avatar2.jpg" alt="">
+                        </li>
+                        <li class="nav__list-item">Contact
+                            <img src="./imagenes/avatar5.jpg" alt="">
+                        </li>
+                    </div>
+                    <div style="width: 50%; float: left; flex-direction: column; font-size: 1.3rem;text-align: justify;" class="barraleft">
+                        <li class="nav__list-item">Inicio</li>
+                        <br>
+                        <li class="nav__list-item">Sobre Nosotras</li>
+                        <br>
+                        
+                        <li class="nav__list-item">Gestion pedagogica</li>
+                        <br>
+                        <li class="nav__list-item">Gestion institucional</li>
+                        <br>
+                        <li class="nav__list-item">Campus online</li>
+                        <br>
+                        <li class="nav__list-item">Galeria</li>
+                        <br>
+                        <li class="nav__list-item">Admision</li>
+                        <br>
+                        <li class="nav__list-item">Contacto</li>
+        
+                        
+                    </div>
+                </div>
+                
+            </ul>
+        </div>
+
+        <a href="#"><i class="uil uil-image"></i></a>
+        <a href="#"><i class="uil uil-image"></i></a>
+        <a href="#"><i class="uil uil-image"></i></a>
+        <a href="#"><i class="uil uil-image"></i></a>
+
+  
+
+    </nav> 
+</body>
+  <script>
+        console.clear();
+
+const app = (() => {
+  let body;
+  let menu;
+  let menuItems;
+
+  const init = () => {
+    body = document.querySelector('body');
+    menu = document.querySelector('.menu-icon');
+    menuItems = document.querySelectorAll('.nav__list-item');
+
+    applyListeners();
+  };
+
+  const applyListeners = () => {
+    menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+  };
+
+  const toggleClass = (element, stringClass) => {
+    if (element.classList.contains(stringClass))
+    element.classList.remove(stringClass);else
+
+    element.classList.add(stringClass);
+  };
+
+  init();
+})();
+    </script>
+
+</html>
