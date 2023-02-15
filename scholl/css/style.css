@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 @font-face {
     font-family: 'Maritime Tropical Neue';
     src: url("../webfonts/maritime_tropical_neueds.ttf") format("truetype");
-  }
+  } */
 
 
 :before,:after{
@@ -74,6 +74,7 @@ a{
 	position: relative;
 	text-transform: capitalize;
 	transition: color 0.3s ease;
+	text-decoration: none;
 }
 .barra .menu > ul > li .sub-menu{
 	position: absolute;
