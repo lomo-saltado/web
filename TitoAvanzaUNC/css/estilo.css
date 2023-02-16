@@ -976,7 +976,7 @@ iframe {
         height: 100vh;
         width: 100%;
         margin-left: 4px;
-        position: absolute;
+        position: relative;
         margin-top: 4rem;
         /* zoom: 60%; */
     }
