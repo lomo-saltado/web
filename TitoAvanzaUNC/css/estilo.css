@@ -396,7 +396,7 @@ header{
     overflow: hidden;
     height: 80vh;
     margin-bottom: 5rem;
-    background: red;
+    background: rgb(123, 68, 74);
     border-radius: 30px;
     margin: 3rem;
     color: #fff;
@@ -661,7 +661,7 @@ header{
 /*------------------*/
 
 .faqs {
-    /* background-color: var(--color-bg1); */
+    background-color: #ffc349;
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     margin: 0.8rem;
@@ -727,7 +727,7 @@ header{
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 1rem;
-    border: 1rem solid var(--color-bg1);
+    border: 1rem solid rgb(123, 68, 74);
 }
 
 .testimonial_info {
@@ -735,21 +735,22 @@ header{
 }
 
 .testimonial_body {
-    background: var(--color-primary);
+    background: rgb(123, 68, 74);
     padding: 2rem;
     margin-top: 3rem;
     position: relative;
     border-radius: 30px;
+    color: #fff;
 }
 
 .testimonial_body::before {
     content: "";
     display: block;
-    background: linear-gradient(135deg,
+    /* background: linear-gradient(135deg,
             transparent,
             var(--color-primary),
             var(--color-primary),
-            var(--color-primary));
+            var(--color-primary)); */
     width: 3rem;
     height: 3rem;
     position: absolute;
@@ -972,17 +973,27 @@ iframe {
     /*============*/
 
     header{
-        height: 100%;
+        height: 100vh;
+        width: 100%;
+        margin-left: 4px;
+        position: absolute;
+        margin-top: 4rem;
+        /* zoom: 60%; */
     }
     .header_container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         text-align: center;
         margin-top: 8rem;
+        /* width: 70%; */
+        zoom: 60%;
     }
 
-    .header_left p{
+    .header_left h1{
         margin-bottom: 1.3rem;
+        
+
     }
+
     /*============*/
 
     .categories_right {
