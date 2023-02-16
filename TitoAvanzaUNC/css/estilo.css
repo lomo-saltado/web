@@ -140,7 +140,6 @@ nav button{
     gap: 2rem;
     
 }
-
 .nav_menu a{
     font-size: 0.9rem;
     transition: var(--transition);
@@ -964,15 +963,16 @@ iframe {
 
     /*============*/
 
-    .courses{
-        zoom: 80%;
-        /* width: auto; */
-    }
+
+
+
+
+
 
     /*============*/
 
     header{
-        height: 100vh;
+        height: auto;
         width: 100%;
         margin-left: 4px;
         position: relative;
@@ -984,7 +984,7 @@ iframe {
         text-align: center;
         margin-top: 8rem;
         /* width: 70%; */
-        zoom: 60%;
+        zoom: 50%;
     }
 
     .header_left h1{
@@ -1040,6 +1040,11 @@ iframe {
 
     .footer_social {
         justify-content: center;
+    }
+    
+    .courses{
+        zoom: 80%;
+        /* width: auto; */
     }
 
 }
