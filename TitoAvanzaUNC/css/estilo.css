@@ -660,6 +660,19 @@ header{
 
 /*------------------*/
 
+.equipo{
+    border-radius: 30px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 90vh;
+}
+.equipo img{
+    border-radius: 30px;
+    height: 90vh;
+    object-fit: fill;
+    
+}
+
 .faqs {
     background-color: #ffc349;
     box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.2);
@@ -993,6 +1006,17 @@ iframe {
         
 
     }
+    
+    /*============*/
+    .equipo{
+        margin: 0;
+        height: 50vh;
+        /* margin-top: -5rem; */
+    }
+    .equipo img{
+        object-fit: contain;
+        margin-top: -10rem;
+    }
 
     /*============*/
 
@@ -1047,5 +1071,5 @@ iframe {
         zoom: 80%;
         /* width: auto; */
     }
-
+    
 }
