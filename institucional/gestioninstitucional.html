@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" href="../favicon.png">
+
+    <!-- css -->
+
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://kit.fontawesome.com/cfcc8dbcf1.js" crossorigin="anonymous"></script>
+    <style>
+        
+        ol li{
+    position: relative;
+    left: 0;
+    border-left: 2px solid #24ff0b;
+    transition: var(--transition);
+    cursor: pointer;
+    margin: 4px 0;
+}
+ol li::before{
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background: #24ff0b;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+ol li:hover::before{
+    transform: scaleX(1);
+}
+ol a{
+    color: var(--color-ligth);
+}
+ol li a{
+    position: relative;
+    padding: 8px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+ol li:hover{
+    text-decoration: underline;
+    left: 10px;
+}
+ol li:hover .fa-solid{
+    transform: rotate(90deg);
+    transition: all ease-in-out .5s;
+}
+
+    </style>
+    <title>Gestión institucional - María de Nazaret</title>
+</head>
+<body>
+    <nav style="zoom: 80%;">
+        <center><small style="text-align: center; width: 100%; height: auto; text-align: center;color: transparent;">¡</small></center>
+        <div class="navbar">
+            <i class='fa-solid fa-align-left bx bx-menu' style="z-index: 99; margin-top: -3rem"></i>
+            <div><a href="../index.html">
+                <div class="logo"><img src="../imagenes/logo96.png" alt="logo" style="z-index: 99; margin-top: -3rem"></div></a></div>
+            <div class="nav-links">
+                <div class="sidebar-logo">
+                    <span class="logo-name">Gestión institucional</span>
+                    <i class='fa-solid fa-xmark bx bx-x'></i>
+                </div>
+                
+                <ul class="links">
+                    
+                    <li>
+                        <a href="../index.html">Sobre Nosotras</a>
+                        <i class='bx bxs-chevron-down htmlcss-arrow arrow fa-solid fa-chevron-down'></i>
+                        <ul class="htmlCss-sub-menu sub-menu">
+                            <!-- <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Misión & Visión</a></li> -->
+                            <li><a href="../template/historia.html" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Historia</a></li>
+                            <li><a href="../template/audio/audio.html" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Himno</a></li>
+    
+                            <li class="more">
+                                <span><a href="#"></a>
+                                    <i class='bx bxs-chevron-right arrow more-arrow' style="display: none;"></i>
+                                </span>
+    
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../institucional/gestionpedagogica.html">Gestión pedagógica</a>
+                        <i class='bx bxs-chevron-down js-arrow arrow fa-solid fa-chevron-down'></i>
+                        <ul class="js-sub-menu sub-menu">
+                            <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Nivel Primaria</a></li>
+                            <li><a href="#" style="color: var(--color-light); font-weight: 300; font-size: 0.9rem;">Nivel Secundaria</a></li>
+    
+                        </ul>
+                    </li>
+                    
+                    <li><a href="../institucional/gestioninstitucional.html">Gestión institucional</a></li>
+                    <li><a href="../institucional/actividadesculturales.html">Actividades culturales</a></li>
+                    <li><a href="../campus/index.html">Campus online</a></li>
+                    <li><a href="../galeria/galeria.html">Galería</a></li>
+                    <li><a href="../template/admision.html">Admisión</a></li>
+                    
+                    <li><a href="../template/contacto.html">Contacto</a></li>
+                    <div class="subimg">
+                        
+                        <img src="../imagenes/niña2.png" alt=""></div>
+                </ul>
+    
+            </div>
+    
+            <!-- <div class="search-box" style="display: none;">
+                <i class='bx bx-search'></i>
+            </div> -->
+            <ul style="z-index: 99; margin-top: -3rem">
+                <samp style="color: #fff;">&nbsp;</samp>
+                <div class="heart">
+                    <div class="toggle"></div>
+                </div>
+                <samp style="color: #fff;">Nazaret</samp>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- inicio -->
+     <header >
+        
+        <div class="container header_container">
+            <div class="header_left" >
+                <h2 style="font-family: 'Maritime Tropical Neuedouble';">Gestión Institucional</h2>
+                <div class="separador mx-auto"></div>
+                <p style="font-size: 1rem; font-weight: 400; margin-top: -10px;">
+                <ol>
+                    <li><a href="#perfil"><i class="fa-solid fa-angle-right"></i>&nbsp;PERFIL DE LOS COLABORADORES NAZARETANOS</a></li>
+                </ol></p>
+            </div>
+
+            <div class="header_right" >
+                <div class="header_right-image">
+                    <img src="../imagenes/docente2.jpg" alt="Gestión Institucional" style="border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </header> 
+
+    <section style="padding: 30px;" id="perfil">
+        <h2 style="text-align: center; font-family: 'Maritime Tropical Neuedouble';" >PERFIL DE LOS COLABORADORES NAZARETANOS</h2>
+<br>
+Todos y cada uno de los trabajadores del I.E.P. "María de Nazaret", deberán esforzarse por tener el siguiente perfil: <br>
+
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';"> CAMPO PERSONAL</h4> <br>
+<br>
+1. Es proactivo, competitivo, emprendedor, autónomo y tolerante frente a los retos que se le presentan. <br>
+2. Se rige por los principios Cristianos y Marianos. <br>
+3. Conoce y se identifica con la filosofía de la institución. <br>
+4. Es organizado, puntual y paciente en el logro de sus metas y en el manejo de sus tiempos. <br>
+5. Es respetuoso, tolerante y disciplinado en el desarrollo de sus actividades en el trabajo. <br>
+6. Muestra honestidad, veracidad, prudencia, honradez y capacidad para expresar sus emociones al interrelacionarse con los demás. <br>
+7. Muestra una alta autoestima, motivación, optimismo y buen sentido del humor, en busca de su realización personal. <br>
+8. Muestra buen conocimiento de sí mismo y de la realidad. <br>
+9. Tiene resistencia emocional y física. <br>
+10. Es discreto, leal y ejemplar en la convivencia social. <br>
+11. Mantiene su presentación personal y los ambientes de trabajo limpios y ordenados. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';"> CAMPO SOCIAL</h4> <br>
+<br>
+1. Tiene mística de trabajo siendo comprometido y responsable en los equipos que integra. <br>
+2. Practica una comunicación efectiva y eficiente, siendo amable, empático y conciliador. <br>
+3. Es líder y concertador, con vocación de servicio. <br>
+4. Evidencia su respeto a las normas y reglas, mostrando autocontrol en el manejo de conflictos. <br>
+5. Practica hábitos de cuidado ambiental. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';"> CAMPO INTELECTUAL</h4> <br>
+<br>
+Las capacidades profesionales / técnicas requeridas para cada cargo son: <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">a) DOCENTES</h4>  <br><br>
+1. Tiene título pedagógico en el nivel y especialidad en la que se desempeña. <br>
+2. Tiene grado de Magíster o cuatro diplomados en Educación. <br>
+3. Es católico practicante. <br>
+4. Conoce y se identifica con la filosofía Nazaretana. <br>
+5. Tiene conocimiento avanzado de pedagogía, corrientes y propuestas pedagógicas. <br>
+6. Tiene conocimientos básicos en computación, especialmente en Word, Excel, Power Point, Corel Draw, Internet y uso de redes sociales. <br>
+7. Mantiene activo un blog de su área, consignando actividades de aprendizaje, los términos y aspectos fundamentales que deben conocer las alumnas, enlaces e información de referencia. <br>
+8. Conoce el inglés a nivel intermedio: Habla, lee, comprende y redacta. <br>
+9. Tiene habilidades de expresión oral y corporal y capacidad para emplear medios audiovisuales. <br>
+10. Maneja el idioma castellano a nivel culto. Comprensión lectora, vocabulario amplio, redacción, caligrafía y ortografía eficientes. <br>
+11. Es creativo, innovador, autodidacta y de mente abierta en su desempeño profesional. <br>
+12. Cuenta con una vasta cultura general e identidad local, regional y nacional. <br>
+13. Practica deportes y artes. <br>
+14. Tiene producción intelectual permanente publicada en su blog. <br>
+15. Tiene destreza en el uso de la caligrafía Palmer. <br>
+16. Es corresponsable que las alumnas obtengan resultados aprobatorios A o sobre 14, considerando que la nota de la alumna es también nota del docente y de la institución. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">B) SECRETARIA </h4><br>
+
+1. Tiene título de secretaria ejecutiva bilingüe. <br>
+2. Es católico practicante. <br>
+3. Es amable y cordial en su trato con alumnas, padres de familia y compañeros de trabajo. <br>
+4. Tiene capacidad para establecer y mantener relaciones, recíprocas y cálidas. <br>
+5. Tiene conocimiento de toda la legislación educativa peruana. <br>
+6. Maneja eficientemente técnicas de archivo. <br>
+7. Tiene habilidad en digitación o mecanografía. <br>
+8. Maneja el procesador de textos, hoja de cálculo, diseño gráfico, base de datos, presentaciones e Internet. <br>
+9. Usa en forma apropiada el teléfono y el portero electrónico. <br>
+10. Tiene capacidad de manejo y organización de la agenda. <br>
+11. Maneja la redacción de correspondencia general, comercial y administrativa. <br>
+12. Tiene habilidad para negociar. <br>
+13. Conoce el inglés a nivel intermedio: Habla, lee, comprende y redacta. <br>
+14. Maneja el idioma castellano a nivel culto. Comprensión lectora, vocabulario amplio, redacción y ortografía eficientes. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">C) ADMINISTRADORA</h4><br>
+
+1. Tiene título profesional Universitario. <br>
+2. Es católico practicante. <br>
+3. Tiene capacitación permanente en su área. <br>
+4. Tiene conocimiento de toda la legislación peruana relacionada con su área. <br>
+5. Tiene conocimiento de toda la legislación educativa peruana. <br>
+6. Maneja el procesador de textos, hoja de cálculo, diseño gráfico, base de datos, presentaciones e Internet. <br>
+7. Conoce el inglés a nivel intermedio: Habla, lee, comprende y redacta. <br>
+8. Maneja el idioma castellano a nivel culto. Comprensión lectora, vocabulario amplio, redacción y ortografía eficientes. <br>
+9. Tiene capacidad para establecer y mantener relaciones cordiales, recíprocas y cálidas o redes de contacto con sus clientes internos y externos. <br>
+10. Posee habilidad para negociar. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">D) PERSONAL AUXILIAR </h4><br>
+
+1. Maneja técnicas de archivo. <br>
+2. Es católico practicante. <br>
+3. Tiene habilidad en digitación o mecanografía. <br>
+4. Maneja el procesador de textos, hoja de cálculo, diseño gráfico, base de datos, presentaciones e Internet. <br>
+5. Usa apropiadamente el teléfono y portero electrónico. <br>
+6. Tiene capacidad para establecer y mantener relaciones cordiales, recíprocas y cálidas o redes de contacto con sus clientes internos y externos. <br>
+7. Posee habilidad para negociar. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">E) PERSONAL DE SERVICIOS </h4><br>
+
+1. Maneja técnicas de archivo. <br>
+2. Es católico practicante. <br>
+3. Es proactiva en sus labores. <br>
+4. Preocupada por la imagen física de la institución. <br>
+5. Usa apropiadamente el teléfono y portero electrónico. <br>
+6. Tiene capacidad para establecer y mantener relaciones cordiales, recíprocas y cálidas o redes de contacto con sus clientes internos y externos. <br>
+7. Posee habilidad para negociar. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">F) DIRECTOR Y ASESOR PEDAGÓGICO</h4> <br>
+
+1. Posee título de Profesional en educación. <br>
+2. Tiene dos grados de Magíster en Educación, cuatro diplomados en Educación, o grado de Doctor en Educación. <br>
+3. Es católico practicante. <br>
+4. Posee conocimientos avanzados y actualizados de pedagogía, corrientes y propuestas pedagógicas y evaluación educativa. <br>
+5. Tiene conocimiento de toda la legislación peruana relacionada con educación. <br>
+6. Posee manejo intermedio de herramientas Office o similar <br>
+7. Conoce el inglés a nivel intermedio: Habla, lee, comprende y redacta. <br>
+8. Maneja el idioma castellano a nivel (culto). Comprensión lectora, vocabulario amplio, redacción y ortografía eficientes. <br>
+9. Tiene conocimientos legales directamente relacionados con los procesos de contratación, administración y desarrollo de Personal. <br>
+10. Tiene capacidad para determinar de forma eficaz, fases, etapas, metas y prioridades para la consecución de objetivos, a través del desarrollo de planes de acción, incluyendo los recursos necesarios y los sistemas de control. <br>
+11. Tiene capacidad para liderar a su grupo de trabajo, de impartir directrices y estrategias funcionales de alto nivel, con calidad y eficiencia; de diseñar objetivos de trabajos claros y efectivos. <br>
+12. Tiene capacidad para toma de decisiones objetivas, basándose en un análisis exhaustivo de los posibles efectos y riesgos, así como posibilidades de implantación. <br>
+13. Capacidad para establecer y mantener relaciones cordiales, recíprocas y cálidas o redes de contacto con sus clientes internos y externos. <br>
+14. Habilidad para negociar. <br>
+<br>
+<h4 style="font-family: 'Maritime Tropical Neue';">G) GERENTE</h4> <br>
+
+1. Posee título de Profesional. <br>
+2. Tiene Maestría en la especialidad. <br>
+3. Es católico practicante. <br>
+4. Tiene conocimiento de pedagogía, corrientes y propuestas pedagógicas, evaluación educativa. <br>
+5. Tiene conocimiento de toda la legislación peruana relacionada a educación. <br>
+6. Posee manejo intermedio de herramientas office o similar. <br>
+7. Conoce el inglés a nivel intermedio: Habla, lee, comprende y redacta. <br>
+8. Maneja el idioma castellano a nivel culto. Comprensión lectora, vocabulario amplio, redacción y ortografía eficientes. <br>
+9. Posee conocimientos legales directamente relacionados con los procesos de contratación, administración y desarrollo de Personal. <br>
+10. Tiene capacidad para determinar de forma eficaz, fases, etapas, metas y prioridades para la consecución de objetivos, a través del desarrollo de planes de acción, incluyendo los recursos necesarios y los sistemas de control.<br>
+11. Tiene capacidad para liderar a su grupo de trabajo, de impartir directrices y estrategias funcionales de alto nivel, con calidad y eficiencia; de diseñar objetivos de trabajos claros y efectivos.<br>
+12. Tiene capacidad para toma de decisiones objetivas, basándose en un análisis exhaustivo de los posibles efectos y riesgos, así como posibilidades de implantación.<br>
+13. Tiene capacidad para establecer y mantener relaciones cordiales, recíprocas y cálidas o redes de contacto con sus clientes internos y externos. <br>
+14. Tiene habilidad para negociar.<br>
+
+    </section>
+    <!-- pie -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>Maria de Nazaret</h4>
+                </a>
+                <p>
+                    Entonces dime: <br>
+                    ¿Qué es lo mejor te ha pasado? <br>
+                    Haber nacido MUJER!!! <br>
+                    <img src="../imagenes/maria.png" alt="imgfooter" style="width: 65%;" >
+                    <!-- <input type="text" name="respuesta" placeholder="Haber nacido MUJER" style="background-color: transparent;color: rgb(255, 255, 255);"> -->
+                </p>
+                
+            </div>
+    
+            <div class="footer_2">
+                <h4>Explora</h4>
+                <ul class="permalinks">
+                    <!-- <li><a href="#inicio">Inicio</a></li> -->
+                    <li><a href="../template/historia.html">Sobre Nosotras</a></li>
+                    <li><a href="../institucional/gestionpedagogica.html">Gestión Pedagógica</a></li>
+                    <li><a href="../institucional/gestioninstitucional.html">Gestión Institucional</a></li>
+                    <li><a href="../institucional/actividadesculturales.html">Actividades culturales</a></li>
+                    <li><a href="../campus/index.html">Campus online</a></li>
+    
+                    <li><a href="../galeria/galeria.html">Galería</a></li>
+                    <li><a href="../template/admision.html">Admisión</a></li>
+                    <li><a href="../template/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_3">
+                <h4>Enlaces externos</h4>
+                <ul class="permalinks">
+                    <li><a href="http://ugelcajamarca.gob.pe/">UGEL</a></li>
+                    <!-- <li><a href="#">REGLA</a></li> -->
+                    <li><a href="#">PCIE</a></li>
+                    <li><a href="#">PEJ</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_4">
+                <h4>Contacto</h4>
+                <div>
+                    <i class="fa-solid fa-phone" style="zoom: 1.2;"></i><p>(076) 363545</p>
+                    <br>
+                    <i class="fa-regular fa-envelope" style="zoom: 1.2;" mail></i><a href="mailto:secretaria@mariadenazaret.edu.pe"><br> secretaria@mariadenazaret.edu.pe</a> <br>
+                    <br>
+                    <i class="fa-solid fa-location-dot" style="zoom: 1.2;"></i><p>Av. Hoyos Rubio 1050 <br> Urb. Horacio Zeballos Gamez</p>
+                </div>
+                    
+                <ul class="footer_social">
+                    <li>
+                        <a href="https://www.facebook.com/mariadenazaretcajamarca"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://youtube.com/channel/UCLUIynDJbZCsjyiAWhYfgkw"><i class="fa-brands fa-youtube"></i></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></i></a>
+                    </li>
+    
+                    <li>
+                        <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle
+    ('window-scroll',window.scrollY > 0)
+    
+});
+
+let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+  menuOpenBtn.onclick = function() {
+  navLinks.style.left = "0";
+  }
+  menuCloseBtn.onclick = function() {
+  navLinks.style.left = "-100%";
+  }
+  
+  
+  // sidebar submenu open close js code
+  let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+  htmlcssArrow.onclick = function() {
+   navLinks.classList.toggle("show1");
+  }
+  let moreArrow = document.querySelector(".more-arrow");
+  moreArrow.onclick = function() {
+   navLinks.classList.toggle("show2");
+  }
+  let jsArrow = document.querySelector(".js-arrow");
+  jsArrow.onclick = function() {
+   navLinks.classList.toggle("show3");
+  }
+
+  const heart = document.querySelector(".heart");
+
+  heart.addEventListener("click", () =>{
+  if(!heart.classList.contains("forward")){
+      heart.classList.add("forward");
+      heart.classList.remove("reverse")
+  }else{
+      heart.classList.add("reverse")
+      heart.classList.remove("forward");
+
+      }
+  })
+
+
+  const body = document.querySelector("body"),
+    toggle = document.querySelector(".toggle");
+
+  let getMode = localStorage.getItem("mode");
+  if (getMode && getMode === "dark") {
+    body.classList.add("dark");
+    toggle.classList.add("active");
+  }
+
+  toggle.addEventListener("click", () => {
+    body.classList.toggle("dark");
+
+    if (!body.classList.contains("dark")) {
+      return localStorage.setItem("mode", "light");
+    }
+    localStorage.setItem("mode", "dark");
+  });
+
+  toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+
+
+</script>
+</html>

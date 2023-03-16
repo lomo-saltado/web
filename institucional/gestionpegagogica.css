@@ -1,0 +1,47 @@
+ol li{
+    position: relative;
+    left: 0;
+    border-left: 2px solid #24ff0b;
+    transition: var(--transition);
+    cursor: pointer;
+    margin: 4px 0;
+}
+ol li::before{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background: #24ff0b;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.5s;
+}
+ol li:hover::before{
+    transform: scaleX(1);
+}
+ol a{
+    color: var(--color-ligth);
+}
+ol li a{
+    position: relative;
+    padding: 8px;
+    display: inline-block;
+    z-index: 1;
+    transition: 0.5s;
+
+}
+ol li:hover{
+    text-decoration: underline;
+    left: 10px;
+}
+
+.categories_gp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+@media screen and (max-width: 600px){
+    .categories_gp{
+        gap: 0.5rem;
+    }
+}
