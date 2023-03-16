@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--description links-->
+    <meta name="description" content="Educacion solo Para NIñas" />
+    <meta property="og:url" content="https://http://www.mariadenazaret.edu.pe/" />
+    <meta property="og:type"  content="article" />
+    <meta property="og:title"  content="Maria De Nazaret Cajamarca" />
+    <meta property="og:image"  content="./favicon.png" />
+    <!--end d.-->
+    <link rel="stylesheet" href="../css/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!---->
+   
+    <link rel="shorcut icon" href="../favicon.png">
+
+     
+
+    <title>María de Nazaret</title>
+</head>
+<body>
+<!----------------------------------------------navbar-------------------->
+<nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="../index.html"><img src="../imagenes/logo96.png" alt="logo"></a></div>
+      
+          
+      
+      <div class="heart">
+        <div class="toggle"></div>
+
+      </div>
+    </div>
+</nav>
+<!-- contend -->
+<style>
+  .enviado{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5rem;
+      height: 70vh;
+  } 
+  .run{
+    width: 50%;
+  }
+  @media screen and (max-width: 600px){
+    .run{
+      width: 100%;
+    }
+  }
+</style>
+<div class="enviado"> 
+  <center>
+      <img class="run" src="../imagenes/maria.png" alt="success">
+  <h1>Mensaje Enviado</h1>
+  <p>Vover a <a href="https://lomo-saltado.github.io/I.E.PMariadeNazaret/" style="text-decoration: underline;color: var(--color-primary);">Inicio</a></p></center>
+</div>
+
+<!-- end contend -->
+<!-------------------------footer---------------------->
+ 
+
+   
+
+    
+    <script src="../java/js.js"></script>
+    <!-- Swiper JS -->
+  
+    <script>
+        const heart = document.querySelector(".heart");
+
+        heart.addEventListener("click", () =>{
+        if(!heart.classList.contains("forward")){
+            heart.classList.add("forward");
+            heart.classList.remove("reverse")
+        }else{
+            heart.classList.add("reverse")
+            heart.classList.remove("forward");
+
+            }
+        })
+
+    </script>
+
+
+    <script>
+        const body = document.querySelector("body"),
+          toggle = document.querySelector(".toggle");
+  
+        let getMode = localStorage.getItem("mode");
+        if (getMode && getMode === "dark") {
+          body.classList.add("dark");
+          toggle.classList.add("active");
+        }
+  
+        toggle.addEventListener("click", () => {
+          body.classList.toggle("dark");
+  
+          if (!body.classList.contains("dark")) {
+            return localStorage.setItem("mode", "light");
+          }
+          localStorage.setItem("mode", "dark");
+        });
+  
+        toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+      </script>
+    <!-- Initialize Swiper -->
+    
+
+
+
+
+
+
+</body>
+</html>

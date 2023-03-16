@@ -228,7 +228,7 @@ a{
   /* background: #D9DDDC; */
   /* background-size: cover;
   background-position: center; */
-  /* height: 700px; */
+  margin-bottom: -140px;
   width: 100%;
   display: block;
 }
