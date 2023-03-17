@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/stylegaleria.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--description links-->
+    <meta name="description" content="Galeria" />
+    <meta property="og:url" content="https://lomo-saltado.github.io/mdn/" />
+    <meta property="og:type"  content="article" />
+    <meta property="og:title"  content="Maria De Nazaret Cajamarca" />
+    <meta property="og:image"  content="../favicon.png" />
+    <!--end d.-->
+
+    <link rel="shorcut icon" href="../favicon.png">
+
+    <script src="https://kit.fontawesome.com/cfcc8dbcf1.js" crossorigin="anonymous"></script>
+    
+
+  
+    <title>Galeria - Maria De Nazaret</title>
+</head>
+<!-- header start -->
+<header class="header">
+  <div class="container">
+    <div class="row v-center">
+      <div class="header-item item-left">
+        <div class="logo">
+          <a href="#"><img src="../img/logo.png" alt="" width="80px"></a>
+        </div>
+      </div>
+      <!-- menu start here -->
+      <div class="header-item item-center">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <div class="go-back"><i class="fa fa-angle-left"></i></div>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+            <li>
+              <a href="../index.html">Inicio</a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#">2023 <i class="fa fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                <div class="list-item text-center">
+                  <a href="#">
+                  <img src="img/95978-customer-care.gif" alt="new Product">
+                  <h4 class="title">Matriculas Abiertas</h4>
+                  </a>
+                </div>
+                <div class="list-item text-center">
+                  <a href="#">
+                  <img src="img/133784-back-to-school.gif" alt="new Product">
+                  <h4 class="title">Inicio de clases 6 de marzo</h4>
+                  </a>
+                </div>
+                <!-- <div class="list-item text-center">
+                  <a href="#">
+                  <img src="img/p3.jpg" alt="new Product">
+                  <h4 class="title">Product 3</h4>
+                  </a>
+                </div>
+                <div class="list-item text-center">
+                  <a href="#">
+                  <img src="img/p4.jpg" alt="new Product">
+                  <h4 class="title">Product 4</h4>
+                   </a>
+                </div> -->
+              </div>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#">Institucional <i class="fa fa-angle-down"></i></a>
+              <div class="sub-menu mega-menu mega-menu-column-4">
+                              <div class="list-item">
+                                  <h4 class="title">Gestión Pedagógica</h4>
+                                  <ul>
+                                     <li><a href="#">Nivel Primaria</a></li>
+                                     <li><a href="#">Nivel Secundaria</a></li>
+                                  </ul>
+                                  <h4 class="title">Actividades Culturales</h4>
+                                  <ul>
+                                     <li><a href="./institucional/actividadesculturales.html">Festividades</a></li>
+                                  </ul>
+                              </div>
+                              <div class="list-item">
+                                <h4 class="title">Sobre Nosotras</h4>
+                                <ul>
+                                     <li><a href="./template/historia.html">Historia</a></li>
+                                     <li><a href="../template/audio/audio.html">Himno</a></li>
+                                  </ul>
+                                  <h4 class="title">Otros</h4>
+                                <ul>
+                                     <li><a href="#">Preguntas Frecuentes</a></li>
+                                  </ul>
+                              </div>
+                              <div class="list-item">
+                                <h4 class="title">Fotos</h4>
+                                <ul>
+                                     <li><a href="./galeria/galeria.html">Galería</a></li>
+                                     <li><a href="#">Facebook</a></li>
+                                     <li><a href="#">Instagram</a></li>
+                                     <li><a href="#">Tour Virtual</a></li>
+                                  </ul>
+                              </div>
+                              <div class="list-item">
+                                 <img src="../img/nav img.webp" alt="Doly Estela" style="border-radius: 10px;">
+                              </div>
+              </div>
+            </li>
+            <!-- <li class="menu-item-has-children">
+              <a href="#">Galería <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li><a href="#">Standard Layout</a></li>
+                  <li><a href="#">Grid Layout</a></li>
+                  <li><a href="#">single Post Layout</a></li>
+                </ul>
+              </div>
+            </li> -->
+            <li class="menu-item-has-children">
+              <a href="#">Admisión <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li><a href="#">Primaria</a></li>
+                  <li><a href="#">Secundaria</a></li>
+                  <li><a href="#">Referido</a></li>
+                  <li><a href="#">Repitente</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="#">Contacto </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here -->
+      <div class="header-item item-right">
+        <!-- <a href="#"><i class="fas fa-search"></i></a> -->
+        <a href="#"><img src="../img/live.png" alt="live" width="25px"></a>
+        <a href="https://www.office.com/?auth=1"><i class="fas fa-user"></i></a>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- header end -->
+
+<body>
+  <div class="body_center">
+    <section class="main swiper mySwiper" style="margin-top: 5rem;">
+      <div class="wrapper swiper-wrapper" style="height: 70vh;">
+        <div class="slide swiper-slide">
+          <img src="images/IMG_4277.webp" alt="" class="image" style="padding: 20px;background: #fff;"/>
+          <div class="image-data">
+            <!-- <span class="text">mdn</span> -->
+            <h2 style="float: left; padding: 100px;" data-aos="fade-right" data-aos-duration="3000">
+              María de<br>
+              <div class="separador mx-auto"></div>
+              Nazaret
+            </h2>
+            <!-- <a href="#" class="button">mdn</a> -->
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img src="images/docentes2.JPG" alt="" class="image" style="padding: 20px;background: #fff;" />
+          <div class="image-data">
+            <!-- <span class="text">We really like what we do.</span> -->
+            <h2 style="margin-top: -7rem;">
+              I.E.P "María de Nazaret"
+            </h2>
+            <!-- <a href="#" class="button">About Us</a>-->
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+          <img src="images/primaria/primaria.webp" alt="niña" class="image" style="padding: 20px;background: #fff;">
+          <div class="image-data">
+            <!-- <span class="text">Making Our coffee with lover.</span> -->
+            <h3 style="float: right; padding: 100px; font-size: 2.5rem;">
+              Maria De<br />
+              Nazaret
+            </h3>
+            <!-- <a href="#" class="button">ig</a> -->
+          </div>
+        </div>
+
+        <div class="slide swiper-slide">
+          <img src="images/1671045232519.webp" alt="niña" class="image" style="padding: 20px;background: #fff;">
+          <div class="image-data">
+            <!-- <span class="text">Making Our coffee with lover.</span> -->
+            <h3 style="padding-top: 100px; font-size: 2.5rem;">
+              Maria De Nazaret
+            </h3>
+            <!-- <a href="#" class="button">ig</a> -->
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+
+
+
+
+    <section style="color: #000; font-family: 'Maritime Tropical Neue';">
+      <ul>
+        <li class=" list active" data-filter="all">Todo</li>
+        <li class="list" data-filter="festividades">Festividades</li>
+        <li class="list" data-filter="primaria">Primaria</li>
+        <li class="list" data-filter="secundaria">Secundaria</li>
+        <li class="list" data-filter="promociones">Promociones</li>
+        <li class="list" data-filter="2022">2022</li>
+      </ul>
+<!-------------- imagen------------------------------ -->
+<div class="product">
+
+  <!-- all -->
+
+  <div class="itemBox" ><a href="./images/adicional/primeraapafa1982.jpeg" data-lightbox="models" data-title="Primera Junta Directiva de la APAFA"><img src="./images/adicional/primeraapafa1982.jpeg" alt="Primera Junta Directiva de la APAFA"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/primeracomunio1996.jpeg" data-lightbox="models" data-title="Primera Comunión (1996)"><img src="./images/adicional/primeracomunio1996.jpeg" alt="Primera Comunión (1996)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/doly.webp" data-lightbox="models" data-title="Dolores Encarnación Estela Goicochea"><img src="./images/adicional/doly.webp" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/reconocimiento.jpeg" data-lightbox="models" data-title="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"><img src="./images/adicional/reconocimiento.jpeg" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/desflile1986.jpeg" data-lightbox="models" data-title="Participación de los Padres de Familia en Desfile de Aniversario ( 1986)"><img src="./images/adicional/desflile1986.jpeg" alt="Participación de los Padres de Familia en Desfile de Aniversario ( 1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/imagen.jpeg" data-lightbox="models" data-title=""><img src="./images/adicional/imagen.jpeg" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/doly1.webp" data-lightbox="models" data-title="Dolores Encarnación Estela Goicochea"><img src="./images/adicional/doly1.webp" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/veronicaruiz.jpeg" data-lightbox="models" data-title="Verónica Ruiz Ramos, soberana elegida por Cajamarca como la Flor de Mayo (1995)"><img src="./images/adicional/veronicaruiz.jpeg" alt="Verónica Ruiz Ramos, soberana elegida por Cajamarca como la Flor de Mayo (1995)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/doly2.webp" data-lightbox="models" data-title="Dolores Encarnación Estela Goicochea"><img src="./images/adicional/doly2.webp" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671041874855.webp" data-lightbox="models" data-title="Primera piedra"><img src="./images/adicional/1671041874855.webp" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671042946695.webp" data-lightbox="models" data-title="Primera piedra"><img src="./images/adicional/1671042946695.webp" alt="Sesión de Reconocimiento del Nivel de Educación Secundaria (1986)"></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671043373481.webp" data-lightbox="models" ><img src="./images/adicional/1671043373481.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671044166374.webp" data-lightbox="models" ><img src="./images/adicional/1671044166374.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671044383905.webp" data-lightbox="models" ><img src="./images/adicional/1671044383905.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671044520998.webp" data-lightbox="models" ><img src="./images/adicional/1671044520998.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671044972718.webp" data-lightbox="models" ><img src="./images/adicional/1671044972718.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671045444307.webp" data-lightbox="models" ><img src="./images/adicional/1671045444307.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671046673178.webp" data-lightbox="models" ><img src="./images/adicional/1671046673178.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671046800037.webp" data-lightbox="models" ><img src="./images/adicional/1671046800037.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671048542714.webp" data-lightbox="models" ><img src="./images/adicional/1671048542714.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671048746249.webp" data-lightbox="models" ><img src="./images/adicional/1671048746249.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671049083945.webp" data-lightbox="models" ><img src="./images/adicional/1671049083945.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671049329917.webp" data-lightbox="models" ><img src="./images/adicional/1671049329917.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671052432036.webp" data-lightbox="models" ><img src="./images/adicional/1671052432036.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671052540950.webp" data-lightbox="models" ><img src="./images/adicional/1671052540950.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671052781465.webp" data-lightbox="models" ><img src="./images/adicional/1671052781465.webp" alt=""></a></div>
+  <div class="itemBox" ><a href="./images/adicional/1671052897696.webp" data-lightbox="models" ><img src="./images/adicional/1671052897696.webp" alt=""></a></div>
+
+<!-- festividades -->
+
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festi.webp" data-lightbox="models" data-title="feria de ciencia"><img src="./images/festividades/festi.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festividad1.jpg" data-lightbox="models" data-title=""><img src="./images/festividades/festividad1.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festividad2.jpg" data-lightbox="models" data-title=""><img src="./images/festividades/festividad2.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festividad3.jpg" data-lightbox="models" data-title=""><img src="./images/festividades/festividad3.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festividad4.webp" data-lightbox="models" data-title=""><img src="./images/festividades/festividad4.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/olimpiadas.jpg" data-lightbox="models" data-title="Olimpiadas"><img src="./images/festividades/olimpiadas.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/navidad.webp" data-lightbox="models" data-title="Navida María de Nazaret"><img src="./images/festividades/navidad.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/festividad5.webp" data-lightbox="models" ><img src="./images/festividades/festividad5.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671041962617.webp" data-lightbox="models"><img src="./images/festividades/1671041962617.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671042237102.webp" data-lightbox="models"><img src="./images/festividades/1671042237102.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671044052931.webp" data-lightbox="models"><img src="./images/festividades/1671044052931.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671044257297.webp" data-lightbox="models"><img src="./images/festividades/1671044257297.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671045054812.webp" data-lightbox="models"><img src="./images/festividades/1671045054812.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671046451882.webp" data-lightbox="models"><img src="./images/festividades/1671046451882.webp" alt=""></a></div>
+  <div class="itemBox" data-item="festividades"><a href="./images/festividades/1671046561852.webp" data-lightbox="models"><img src="./images/festividades/1671046561852.webp" alt=""></a></div>
+
+  <!-- primaria -->
+
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria.webp" data-lightbox="models"><img src="./images/primaria/primaria.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria1.jpeg" data-lightbox="models"><img src="./images/primaria/primaria1.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria2.jpeg" data-lightbox="models"><img src="./images/primaria/primaria2.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria3.webp" data-lightbox="models"><img src="./images/primaria/primaria3.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria4.webp" data-lightbox="models"><img src="./images/primaria/primaria4.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/1671046313712.webp" data-lightbox="models"><img src="./images/primaria/1671046313712.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/1671047156094.webp" data-lightbox="models"><img src="./images/primaria/1671047156094.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/1671047263096.webp" data-lightbox="models"><img src="./images/primaria/1671047263096.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/1671047895133.webp" data-lightbox="models"><img src="./images/primaria/1671047895133.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/1671049218835.webp" data-lightbox="models"><img src="./images/primaria/1671049218835.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria13.webp" data-lightbox="models"><img src="./images/primaria/primaria13.webp" alt=""></a></div>
+  <div class="itemBox" data-item="primaria"><a href="./images/primaria/primaria17.webp" data-lightbox="models"><img src="./images/primaria/primaria17.webp" alt=""></a></div>
+
+<!-- secundaria -->
+
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundaria.webp" data-lightbox="models"><img src="./images/secundaria/secundaria.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundaria1.webp" data-lightbox="models"><img src="./images/secundaria/secundaria1.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundaria2.webp" data-lightbox="models"><img src="./images/secundaria/secundaria2.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundaria3.webp" data-lightbox="models"><img src="./images/secundaria/secundaria3.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundaria5.webp" data-lightbox="models"><img src="./images/secundaria/secundaria5.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/secundariarecreo.jpg" data-lightbox="models"><img src="./images/secundaria/secundariarecreo.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/1671045350194.webp" data-lightbox="models"><img src="./images/secundaria/1671045350194.webp" alt=""></a></div>
+  <div class="itemBox" data-item="secundaria"><a href="./images/secundaria/srita.jpg" data-lightbox="models"><img src="./images/secundaria/srita.jpg" alt=""></a></div>
+
+  <!-- promociones -->
+
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1990.jpeg" data-lightbox="models" data-title="Primera Promoción Educación Secundaria 1990 Doris Correa Rios "><img src="./images/promociones/1990.jpeg" alt="Primera Promoción Educación Secundaria 1990"></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1991.jpeg" data-lightbox="models" data-title="Promoción 1991: Doly Estela"><img src="./images/promociones/1991.jpeg" alt="Promoción 1991: Doly Estela"></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1992.jpeg" data-lightbox="models" data-title="Promoción 1992: Javier Perez de Cuellar"><img src="./images/promociones/1992.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1993.jpeg" data-lightbox="models" data-title="Promoción 1993: Carlos Castañeda Leon"><img src="./images/promociones/1993.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1994.jpeg" data-lightbox="models" data-title="Promoción 1994: Mariae Mater Juventus"><img src="./images/promociones/1994.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/1995.jpeg" data-lightbox="models" data-title="Promoción 1995: Madre Teresa de Calcuta"><img src="./images/promociones/1995.jpeg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2015.jpg" data-lightbox="models" data-title="Promoción 2015: Sogno Di Sorelle"><img src="./images/promociones/2015.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2016.jpg" data-lightbox="models" data-title="Promoción 2016: Sonrisas del Corazón"><img src="./images/promociones/2016.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2017.jpg" data-lightbox="models" data-title="Promoción 2017: Somos la luz en un mundo oscuro"><img src="./images/promociones/prom2017.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2018.jpg" data-lightbox="models" data-title="Promoción 2018: Luz de Dios"><img src="./images/promociones/2018.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2019.jpg" data-lightbox="models" data-title="Promoción 2019: Hermanas de Corazón"><img src="./images/promociones/2019.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2020.jpg" data-lightbox="models" data-title="Promoción 2020: Surviving Is Adapting And Moving Forward"><img src="./images/promociones/2020.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2021.jpg" data-lightbox="models" data-title="Promoción 2021: Dicoruss 2021"><img src="./images/promociones/2021.jpg" alt=""></a></div>
+  <div class="itemBox" data-item="promociones"><a href="./images/promociones/prom2022.jpg" data-lightbox="models" data-title="Promoción 2022: Merak 2022"><img src="./images/promociones/prom2022.jpg" alt=""></a></div>
+
+  <!-- 2022 -->
+
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4277.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4277.webp" alt=""></a></div>
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4280.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4280.webp" alt=""></a></div>
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4281.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4281.webp" alt=""></a></div>
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4292.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4292.webp" alt=""></a></div>
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4339.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4339.webp" alt=""></a></div>
+  <div class="itemBox" data-item="2022"><a href="./images/2022/IMG_4382.webp" data-lightbox="models" data-title=""><img src="./images/2022/IMG_4382.webp" alt=""></a></div>
+
+
+
+  
+  
+</div>
+
+</section>
+<!------------ end------------------------------------ -->
+    
+  </div>
+  <!-------------------------footer---------------------->
+
+
+  <footer class="footer">
+    <div class="container footer_container">
+        <div class="footer_1">
+            <a href="index.html" class="footer_logo">
+                <h4>Maria de Nazaret</h4>
+            </a>
+            <p>
+                Entonces dime: <br>
+                ¿Qué es lo mejor te ha pasado? <br>
+                Haber nacido MUJER!!! <br>
+                <img src="../imagenes/maria.png" alt="imgfooter" style="width: 65%;" >
+                <!-- <input type="text" name="respuesta" placeholder="Haber nacido MUJER" style="background-color: transparent;color: rgb(255, 255, 255);"> -->
+            </p>
+            
+        </div>
+
+        <div class="footer_2">
+            <h4>Explora</h4>
+            <ul class="permalinks">
+                <!-- <li><a href="#inicio">Inicio</a></li> -->
+                <li><a href="../template/historia.html">Sobre Nosotras</a></li>
+                <li><a href="../institucional/gestionpedagogica.html">Gestión Pedagógica</a></li>
+                <li><a href="../institucional/gestioninstitucional.html">Gestión Institucional</a></li>
+                <li><a href="../institucional/actividadesculturales.html">Actividades culturales</a></li>
+                <li><a href="../campus/index.html">Campus online</a></li>
+
+                <li><a href="../galeria/galeria.html">Galería</a></li>
+                <li><a href="../template/admision.html">Admisión</a></li>
+                <li><a href="../template/contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_3">
+            <h4>Enlaces externos</h4>
+            <ul class="permalinks">
+                <li><a href="http://ugelcajamarca.gob.pe/">UGEL</a></li>
+                <!-- <li><a href="#">REGLA</a></li> -->
+                <li><a href="#">PCIE</a></li>
+                <li><a href="#">PEJ</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_4">
+            <h4>Contacto</h4>
+            <div>
+                <i class="fa-solid fa-phone" style="zoom: 1.2;"></i><p>(076) 363545</p>
+                <br>
+                <i class="fa-regular fa-envelope" style="zoom: 1.2;" mail></i><a href="mailto:secretaria@mariadenazaret.edu.pe"><br> secretaria@mariadenazaret.edu.pe</a> <br>
+                <br>
+                <i class="fa-solid fa-location-dot" style="zoom: 1.2;"></i><p>Av. Hoyos Rubio 1050 <br> Urb. Horacio Zeballos Gamez</p>
+            </div>
+                
+            <ul class="footer_social">
+                <li>
+                    <a href="https://www.facebook.com/mariadenazaretcajamarca"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+
+                <li>
+                    <a href="https://youtube.com/channel/UCLUIynDJbZCsjyiAWhYfgkw"><i class="fa-brands fa-youtube"></i></i></a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></i></a>
+                </li>
+
+                <li>
+                    <a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+<!-- dark/light -->
+<script>
+  const heart = document.querySelector(".heart");
+
+  heart.addEventListener("click", () => {
+      if (!heart.classList.contains("forward")) {
+          heart.classList.add("forward");
+          heart.classList.remove("reverse")
+      } else {
+          heart.classList.add("reverse")
+          heart.classList.remove("forward");
+
+      }
+  })
+
+
+</script>
+
+
+<script>
+  const body = document.querySelector("body"),
+      toggle = document.querySelector(".toggle");
+
+  let getMode = localStorage.getItem("mode");
+  if (getMode && getMode === "dark") {
+      body.classList.add("dark");
+      toggle.classList.add("active");
+  }
+
+  toggle.addEventListener("click", () => {
+      body.classList.toggle("dark");
+
+      if (!body.classList.contains("dark")) {
+          return localStorage.setItem("mode", "light");
+      }
+      localStorage.setItem("mode", "dark");
+  });
+
+  toggle.addEventListener("click", () => toggle.classList.toggle("active"));
+</script>
+
+<!-- end -->
+
+<script>
+  let list = document.querySelectorAll('.list');
+  let itemBox = document.querySelectorAll('.itemBox');
+
+  for (let i = 0; i < list.length; i++) {
+    list[i].addEventListener('click', function () {
+      for (let j = 0; j < list.length; j++) {
+        list[j].classList.remove('active');
+      }
+      this.classList.add('active');
+
+      let dataFilter = this.getAttribute('data-filter');
+      for (let k = 0; k < itemBox.length; k++) {
+        itemBox[k].classList.remove('active');
+        itemBox[k].classList.add('hide');
+
+        if (itemBox[k].getAttribute('data-item') == dataFilter ||
+          dataFilter == "all") {
+
+          itemBox[k].classList.remove('hide');
+          itemBox[k].classList.add('active');
+
+        }
+      }
+    })
+  }
+</script>
+
+<!-- Swiper JS -->
+<script src="JS/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+    // sidebar open close js code
+    let navLinks = document.querySelector(".nav-links");
+  let menuOpenBtn = document.querySelector(".navbar .bx-menu");
+  let menuCloseBtn = document.querySelector(".nav-links .bx-x");
+  menuOpenBtn.onclick = function() {
+  navLinks.style.left = "0";
+  }
+  menuCloseBtn.onclick = function() {
+  navLinks.style.left = "-100%";
+  }
+  
+  
+  // sidebar submenu open close js code
+  let htmlcssArrow = document.querySelector(".htmlcss-arrow");
+  htmlcssArrow.onclick = function() {
+   navLinks.classList.toggle("show1");
+  }
+  let moreArrow = document.querySelector(".more-arrow");
+  moreArrow.onclick = function() {
+   navLinks.classList.toggle("show2");
+  }
+  let jsArrow = document.querySelector(".js-arrow");
+  jsArrow.onclick = function() {
+   navLinks.classList.toggle("show3");
+  }
+</script>
+
+
+<script src="./JS/lightbox-plus-jquery.js"></script>
+
+</html>
