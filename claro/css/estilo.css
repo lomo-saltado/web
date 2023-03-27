@@ -760,3 +760,27 @@ iframe{
 
 }
 
+/* preloader */
+
+#preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  }
+  
+  #preloader img {
+    width: 100px; /* ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* establece la altura en automático para mantener la proporción */
+  }
+  
+  .hide {
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out; /* establece la duración y el tipo de transición */
+  }
