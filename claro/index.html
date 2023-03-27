@@ -75,6 +75,14 @@
 </head>
 
 <body onload="onLoad()">
+    
+    <!-- star preolader -->
+
+    <div id="preloader">
+        <img src="favicon.png" alt="loading....">
+    </div>
+
+    <!-- end preolader -->
 
     <!-- nav start -->
     <nav class="nav">
@@ -590,6 +598,20 @@
     Fancybox.bind("[data-fancybox]", {
         Animation: "slide;"
     });
+</script>
+
+<!-- preloader -->
+
+<script>
+    window.addEventListener("load", function () {
+  const preloader = document.querySelector("#preloader");
+  preloader.classList.add("hide");
+
+  setTimeout(function () {
+    preloader.style.display = "none";
+  }, 500);
+});
+
 </script>
 
 </html>
