@@ -507,7 +507,7 @@ header{
 } */
 /*------------pie------------------*/
 footer{
-    background: right / contain no-repeat url("../imagenes/estudiante.png"),
+    background: right / contain no-repeat url("../imagenes/estudiante.webp"),
         var(--color-bg1);
     padding-top: 5rem;
     font-size: 0.9rem;
