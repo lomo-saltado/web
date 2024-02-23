@@ -36,6 +36,9 @@ body{
 }
 @media screen and (max-width: 600px){
     .baner{
-        background: url(bg600.jpg)
+        background: url(bg600.jpg);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
