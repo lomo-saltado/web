@@ -15,6 +15,7 @@ body{
     background: url(bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 .baner video{
     position: absolute;
